@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce-page</title>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="primary-header">
+      <button class="btn-logo">
+        <img src="./images/icon-menu.svg" alt="" />
+      </button>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+
+      <nav>
+        <ul class="primary-navigation">
+          <button class="btn-close">
+            <img src="./images/icon-close.svg" alt="" />
+          </button>
+          <li class="active"><a href="#" class="links">Collections</a></li>
+          <li class="active"><a href="#" class="links">Men</a></li>
+          <li class="active"><a href="#" class="links">Women</a></li>
+          <li class="active"><a href="#" class="links">About</a></li>
+          <li class="active"><a href="#" class="links">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="avatar">
+        <img src="./images/icon-cart.svg" class="cart-hover" alt="" />
+        <img src="./images/image-avatar.png" alt="" />
+      </div>
+    </div>
+
+    <div class="product-imgs">
+      <img
+        src="./images/image-product-1.jpg"
+        alt=""
+        data-version-number="0"
+        class="slider-image"
+      />
+
+      <img
+        src="./images/image-product-2.jpg"
+        alt=""
+        data-version-number="1"
+        class="slider-image"
+      />
+
+      <img
+        src="./images/image-product-3.jpg"
+        alt=""
+        data-version-number="2"
+        class="slider-image"
+      />
+
+      <img
+        src="./images/image-product-4.jpg"
+        alt=""
+        data-version-number="3"
+        class="slider-image"
+      />
+    </div>
+    <div class="product-thumbnails">
+      <img
+        src="./images/image-product-1-thumbnail.jpg"
+        alt=""
+        data-version-number="0"
+      />
+      <img
+        src="./images/image-product-2-thumbnail.jpg"
+        alt=""
+        data-version-number="1"
+      />
+      <img
+        src="./images/image-product-3-thumbnail.jpg"
+        alt=""
+        data-version-number="2"
+      />
+      <img
+        src="./images/image-product-4-thumbnail.jpg"
+        alt=""
+        data-version-number="3"
+      />
+    </div>
+    <div class="leftandright">
+      <button class="btn-left">
+        <img src="./images/icon-previous.svg" alt="" />
+      </button>
+      <button class="btn-right">
+        <img src="./images/icon-next.svg" alt="" />
+      </button>
+    </div>
+
+    <section class="product-details">
+      <p class="product-info">Sneaker Company</p>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p class="product-description">
+        These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole, they'll withstand everything the
+        weather can offer.
+      </p>
+
+      <div class="product-price">
+        <div class="discount-price">
+          <p>$ 125.00</p>
+          <p>50%</p>
+        </div>
+        <p class="original-price">$250.00</p>
+      </div>
+      <section class="addToCart">
+        <div>
+          <button class="btn-minus">
+            <img src="./images/icon-minus.svg" alt="" />
+          </button>
+          <input type="text" class="cart-value" />
+          <button class="btn-plus">
+            <img src="./images/icon-plus.svg" alt="" />
+          </button>
+        </div>
+        <button class="btn-buy">
+          <img src="./images/icon-cart - Copy.svg" alt="" class="buy-img" />
+          <span>Add to cart</span>
+        </button>
+      </section>
+    </section>
+
+    <section class="cart hidden">
+      <p>Cart</p>
+      <p class="empty-cart">Your Cart is empty.</p>
+      <!-- <p>Cart</p>
+      <div class="cart-insert">
+        <img
+          src="./images/image-product-1-thumbnail.jpg"
+          alt=""
+          width="50px"
+          height="50px"
+          class="product-profile"
+        />
+        <div class="cart-buyout">
+          <p>Fall Limited Edition Sneakers</p>
+          <p>$125.00 x 3 <span>$375.00</span></p>
+        </div>
+        <button class="trashcan">
+          <img src="./images/icon-delete.svg" alt="" />
+        </button>
+      </div>
+      <button class="cart-button">Checkout</button> -->
+    </section>
+    <section class="product-overview hidden">
+      <div class="overview-images">
+        <img
+          src="./images/image-product-1.jpg"
+          alt=""
+          data-set="1"
+          class="overview-images2"
+        />
+
+        <img
+          src="./images/image-product-2.jpg"
+          alt=""
+          data-set="2"
+          class="overview-images2"
+        />
+
+        <img
+          src="./images/image-product-3.jpg"
+          alt=""
+          data-set="3"
+          class="overview-images2"
+        />
+
+        <img
+          src="./images/image-product-4.jpg"
+          alt=""
+          data-set="4"
+          class="overview-images2"
+        />
+      </div>
+      <div class="overview-thumbnails">
+        <img
+          src="./images/image-product-1-thumbnail.jpg"
+          alt=""
+          data-version-number="0"
+        />
+        <img
+          src="./images/image-product-2-thumbnail.jpg"
+          alt=""
+          data-version-number="1"
+        />
+        <img
+          src="./images/image-product-3-thumbnail.jpg"
+          alt=""
+          data-version-number="2"
+        />
+        <img
+          src="./images/image-product-4-thumbnail.jpg"
+          alt=""
+          data-version-number="3"
+        />
+      </div>
+
+      <div class="buttons-overview">
+        <button class="overview-button">
+          <img src="./images/icon-close.svg" alt="" />
+        </button>
+        <button class="btn-overview-left">
+          <img src="./images/icon-previous.svg" alt="" />
+        </button>
+        <button class="btn-overview-right">
+          <img src="./images/icon-next.svg" alt="" />
+        </button>
+      </div>
+    </section>
+
+    <div class="overlay hidden"></div>
+  </body>
+</html>
